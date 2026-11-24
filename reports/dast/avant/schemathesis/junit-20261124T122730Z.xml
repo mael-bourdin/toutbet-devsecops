@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites errors="0" failures="14" skipped="0" tests="15" time="1.884746">
+  <testsuite name="schemathesis" hostname="poste-de-test" errors="0" failures="14" skipped="0" tests="15" time="1.884746">
+    <testcase name="POST /auth/login" time="0.132848">
+      <failure type="failure" message="ST103">1. Test Case ID: YVgVTI
+
+- ST103 Undocumented status code
+
+    Received: 401
+    Documented: 200, 422
+
+[401] Unauthorized:
+
+    `{"detail":"Identifiants invalides"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d '{"password": "[Filtered]", "username": ""}' http://127.0.0.1:8000/auth/login</failure>
+      <failure type="failure" message="ST103">1. Test Case ID: fz95e1
+
+- ST103 Undocumented status code
+
+    Received: 400
+    Documented: 200, 422
+
+[400] Bad Request:
+
+    `{"detail":"There was an error parsing the body"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d $'\x00\x00\x00\x00\x00\x00\x00\x00\x00' http://127.0.0.1:8000/auth/login</failure>
+    </testcase>
+    <testcase name="POST /auth/register" time="0.109810">
+      <failure type="failure" message="ST103">1. Test Case ID: 74T9y7
+
+- ST103 Undocumented status code
+
+    Received: 409
+    Documented: 201, 422
+
+[409] Conflict:
+
+    `{"detail":"Inscription impossible"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d '{"email": "0@0.com", "password": "[Filtered]", "username": "000"}' http://127.0.0.1:8000/auth/register</failure>
+    </testcase>
+    <testcase name="POST /bets" time="0.032043">
+      <failure type="failure" message="ST103">1. Test Case ID: PR7cUJ
+
+- ST103 Undocumented status code
+
+    Received: 429
+    Documented: 201, 422
+
+[429] Too Many Requests:
+
+    `{"detail":"Trop de requêtes"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d '{"bookie_fee_bps": 0, "closes_at": "2000-01-01T00:00:00Z", "description": "", "min_stake_cents": 100, "title": "00000"}' http://127.0.0.1:8000/bets</failure>
+      <failure type="failure" message="ST103">1. Test Case ID: uNg95B
+
+- ST103 Undocumented status code
+
+    Received: 400
+    Documented: 201, 422
+
+[400] Bad Request:
+
+    `{"detail":"There was an error parsing the body"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d $'\x00\x00\x00\x00\x00' http://127.0.0.1:8000/bets</failure>
+    </testcase>
+    <testcase name="POST /wallet/deposits" time="0.014211">
+      <failure type="failure" message="ST103">1. Test Case ID: wb0lqZ
+
+- ST103 Undocumented status code
+
+    Received: 429
+    Documented: 201, 422
+
+[429] Too Many Requests:
+
+    `{"detail":"Trop de requêtes"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d '{"amount_cents": 100}' http://127.0.0.1:8000/wallet/deposits</failure>
+      <failure type="failure" message="ST103">1. Test Case ID: 52gv93
+
+- ST103 Undocumented status code
+
+    Received: 400
+    Documented: 201, 422
+
+[400] Bad Request:
+
+    `{"detail":"There was an error parsing the body"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d $'\x00\x00\x00\x00\x00' http://127.0.0.1:8000/wallet/deposits</failure>
+    </testcase>
+    <testcase name="POST /wallet/withdrawals" time="0.013618">
+      <failure type="failure" message="ST103">1. Test Case ID: LEcHCl
+
+- ST103 Undocumented status code
+
+    Received: 429
+    Documented: 202, 422
+
+[429] Too Many Requests:
+
+    `{"detail":"Trop de requêtes"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d '{"amount_cents": 100, "password": "[Filtered]"}' http://127.0.0.1:8000/wallet/withdrawals</failure>
+      <failure type="failure" message="ST103">1. Test Case ID: XHXlPV
+
+- ST103 Undocumented status code
+
+    Received: 400
+    Documented: 202, 422
+
+[400] Bad Request:
+
+    `{"detail":"There was an error parsing the body"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d $'\x00\x00\x00\x00\x00' http://127.0.0.1:8000/wallet/withdrawals</failure>
+    </testcase>
+    <testcase name="GET /auth/me" time="0.008148">
+      <failure type="failure" message="ST103">1. Test Case ID: nzB8W3
+
+- ST103 Undocumented status code
+
+    Received: 401
+    Documented: 200
+
+[401] Unauthorized:
+
+    `{"detail":"Authentification requise"}`
+
+Reproduce with:
+
+    curl -X GET http://127.0.0.1:8000/auth/me</failure>
+    </testcase>
+    <testcase name="GET /health" time="0.013461" />
+    <testcase name="GET /wallet" time="0.007781">
+      <failure type="failure" message="ST103">1. Test Case ID: mMkjP6
+
+- ST103 Undocumented status code
+
+    Received: 401
+    Documented: 200
+
+[401] Unauthorized:
+
+    `{"detail":"Authentification requise"}`
+
+Reproduce with:
+
+    curl -X GET http://127.0.0.1:8000/wallet</failure>
+    </testcase>
+    <testcase name="POST /bets/{bet_id}/invitations" time="0.056484">
+      <failure type="failure" message="ST103">1. Test Case ID: u5WwyA
+
+- ST103 Undocumented status code
+
+    Received: 429
+    Documented: 201, 422
+
+[429] Too Many Requests:
+
+    `{"detail":"Trop de requêtes"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d '{"username": "000"}' http://127.0.0.1:8000/bets/0a9f809d-274f-4dc6-affa-53a2b2a740a2/invitations</failure>
+    </testcase>
+    <testcase name="POST /bets/{bet_id}/resolve" time="0.137087">
+      <failure type="failure" message="ST103">1. Test Case ID: RxvhgC
+
+- ST103 Undocumented status code
+
+    Received: 403
+    Documented: 200, 422
+
+[403] Forbidden:
+
+    `{"detail":"Réservé aux modérateurs"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d '{"outcome": null}' http://127.0.0.1:8000/bets/0a9f809d-274f-4dc6-affa-53a2b2a740a2/resolve</failure>
+    </testcase>
+    <testcase name="POST /bets/{bet_id}/result" time="0.013632">
+      <failure type="failure" message="ST103">1. Test Case ID: NcvOhy
+
+- ST103 Undocumented status code
+
+    Received: 429
+    Documented: 200, 422
+
+[429] Too Many Requests:
+
+    `{"detail":"Trop de requêtes"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d '{"outcome": "no"}' http://127.0.0.1:8000/bets/0a9f809d-274f-4dc6-affa-53a2b2a740a2/result</failure>
+    </testcase>
+    <testcase name="POST /bets/{bet_id}/votes" time="0.016257">
+      <failure type="failure" message="ST103">1. Test Case ID: MTs11z
+
+- ST103 Undocumented status code
+
+    Received: 429
+    Documented: 200, 422
+
+[429] Too Many Requests:
+
+    `{"detail":"Trop de requêtes"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d '{"confirms": false}' http://127.0.0.1:8000/bets/0a9f809d-274f-4dc6-affa-53a2b2a740a2/votes</failure>
+    </testcase>
+    <testcase name="POST /bets/{bet_id}/wagers" time="0.021284">
+      <failure type="failure" message="ST103">1. Test Case ID: 7xkJ27
+
+- ST103 Undocumented status code
+
+    Received: 429
+    Documented: 201, 422
+
+[429] Too Many Requests:
+
+    `{"detail":"Trop de requêtes"}`
+
+Reproduce with:
+
+    curl -X POST -H 'idempotency-key: [Filtered]' -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d '{"outcome": "no", "stake_cents": 100}' http://127.0.0.1:8000/bets/0a9f809d-274f-4dc6-affa-53a2b2a740a2/wagers</failure>
+    </testcase>
+    <testcase name="GET /bets/{bet_id}" time="0.010804">
+      <failure type="failure" message="ST103">1. Test Case ID: xOFVtz
+
+- ST103 Undocumented status code
+
+    Received: 404
+    Documented: 200, 422
+
+[404] Not Found:
+
+    `{"detail":"Pari introuvable"}`
+
+Reproduce with:
+
+    curl -X GET -H 'Authorization: [Filtered]' http://127.0.0.1:8000/bets/0a9f809d-274f-4dc6-affa-53a2b2a740a2</failure>
+    </testcase>
+    <testcase name="Stateful tests" time="1.297277">
+      <failure type="failure" message="ST103">1. Test Case ID: HdSH3c
+
+- ST103 Undocumented status code
+
+    Received: 400
+    Documented: 200, 422
+
+[400] Bad Request:
+
+    `{"detail":"There was an error parsing the body"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d '��(�0�eR' http://127.0.0.1:8000/bets/0a9f809d-274f-4dc6-affa-53a2b2a740a2/result</failure>
+      <failure type="failure" message="ST103">1. Test Case ID: iKlqYu
+
+- ST103 Undocumented status code
+
+    Received: 400
+    Documented: 200, 422
+
+[400] Bad Request:
+
+    `{"detail":"There was an error parsing the body"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d $'�%#\x013u�\x13u' http://127.0.0.1:8000/bets/%03/votes</failure>
+      <failure type="failure" message="ST103">1. Test Case ID: y0ZUG6
+
+- ST103 Undocumented status code
+
+    Received: 400
+    Documented: 200, 422
+
+[400] Bad Request:
+
+    `{"detail":"There was an error parsing the body"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d $'m�k4\x14x�' http://127.0.0.1:8000/bets/0a9f809d-274f-4dc6-affa-53a2b2a740a2/resolve</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

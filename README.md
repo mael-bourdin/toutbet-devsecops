@@ -12,6 +12,7 @@ mobile-first de paris personnalisés entre particuliers.
 | 3. Matrice STRIDE | [docs/stride.md](docs/stride.md) |
 | 4. Prompts de vibe coding | [docs/prompts.md](docs/prompts.md) |
 | Rapport PDF de remise | [docs/rapport_atelier1.pdf](docs/rapport_atelier1.pdf) |
+| **Atelier 2** : validation et tests offensifs | [docs/rapport_atelier2.pdf](docs/rapport_atelier2.pdf) (`python docs/build_report_atelier2.py`) |
 
 Les documents sont générés depuis une source unique (`docs/content.py`) : `python docs/build_report.py`.
 
@@ -47,8 +48,10 @@ python -m venv .venv && source .venv/bin/activate
 pip install -r requirements-dev.txt
 cp .env.example .env   # puis renseigner les secrets
 set -a && source .env && set +a
-uvicorn app.main:app --reload
+uvicorn app.main:app --port 8000 --workers 4 --no-server-header   # sans bannière « Server: uvicorn »
 ```
+
+Swagger, ReDoc et `/openapi.json` sont désactivés par défaut ; `TOUTBET_EXPOSE_DOCS=1` les active en développement.
 
 ## Tests
 
@@ -59,3 +62,16 @@ pip-audit -r requirements.txt
 ```
 
 La CI GitHub Actions exécute tests, bandit, pip-audit et gitleaks à chaque push.
+
+### Atelier 2 : tests offensifs (serveur lancé, mêmes variables d'environnement)
+
+```bash
+BASE_URL=http://127.0.0.1:8000 pytest tests/e2e -v                  # abuse stories E2E contre le serveur réel
+locust -f tests/load/locustfile.py --host http://127.0.0.1:8000      # charge (interface http://localhost:8089)
+BASE_URL=http://127.0.0.1:8000 python security/dast/run_dast.py apres  # DAST + fuzzing (ffuf, Schemathesis ; TOUTBET_EXPOSE_DOCS=1 côté serveur)
+uvicorn security.iast.instrumented_app:app --workers 4               # serveur instrumenté (IAST) -> reports/iast/
+python security/iast/check_invariants.py                             # invariants financiers en base
+semgrep scan --config p/default --config p/python --config p/owasp-top-ten --config p/secrets --config p/github-actions .
+```
+
+Résultats bruts : `reports/` (Semgrep avant/après, DAST, IAST, Locust).

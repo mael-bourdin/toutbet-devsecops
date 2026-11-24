@@ -1,0 +1,40 @@
+                   
+                   
+┌─────────────────┐
+│ 6 Code Findings │
+└─────────────────┘
+                          
+    .github/dependabot.yml
+    ❯❱ package_managers.dependabot.dependabot-missing-cooldown.dependabot-missing-cooldown
+          ❰❰ Blocking ❱❱
+          This Dependabot configuration does not set a cooldown period. Newly published packages can be     
+          malicious or unstable. Add a `cooldown` block with `default-days: 7` to each `package-ecosystem`  
+          entry under `updates` to wait 7 days before proposing updates to newly published package versions.
+          Reference: https://docs.github.com/en/code-security/dependabot/dependabot-version-                
+          updates/configuration-options-for-the-dependabot.yml-file#cooldown                                
+          Details: https://sg.run/5WvGK                                                                     
+                                                                                                            
+            3┆ - package-ecosystem: pip
+            4┆   directory: /
+            5┆   schedule: { interval: weekly }
+            ⋮┆----------------------------------------
+            6┆ - package-ecosystem: github-actions
+            7┆   directory: /
+            8┆   schedule: { interval: weekly }
+                            
+    .github/workflows/ci.yml
+    ❯❱ yaml.github-actions.security.github-actions-mutable-action-tag.github-actions-mutable-action-tag
+          ❰❰ Blocking ❱❱
+          GitHub Actions step uses a mutable tag or branch reference. Tags and branch names can be silently   
+          repointed by the action owner, enabling supply-chain attacks — as seen in the trivy-action and kics-
+          github-action compromises. Pin the reference to a full 40-character commit SHA instead, e.g. `uses: 
+          actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608`.                                         
+          Details: https://sg.run/2LgAL                                                                       
+                                                                                                              
+            9┆ - uses: actions/checkout@v4
+            ⋮┆----------------------------------------
+           10┆ - uses: actions/setup-python@v5
+            ⋮┆----------------------------------------
+           23┆ - uses: actions/checkout@v4
+            ⋮┆----------------------------------------
+           26┆ - uses: gitleaks/gitleaks-action@v2

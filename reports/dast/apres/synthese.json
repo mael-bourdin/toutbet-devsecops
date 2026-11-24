@@ -1,0 +1,218 @@
+{
+  "decouverte_anonyme": {
+    "requests": 51,
+    "status": {
+      "404": 39,
+      "405": 4,
+      "200": 5,
+      "307": 1,
+      "401": 2
+    },
+    "leaks": [],
+    "examples": {
+      "200": {
+        "FFUFHASH": "af09b14",
+        "FUZZ": "redoc"
+      },
+      "307": {
+        "FFUFHASH": "af09b9",
+        "FUZZ": "bets/"
+      },
+      "401": {
+        "FFUFHASH": "af09b6",
+        "FUZZ": "auth/me"
+      },
+      "404": {
+        "FFUFHASH": "af09b5",
+        "FUZZ": "auth"
+      },
+      "405": {
+        "FFUFHASH": "af09be",
+        "FUZZ": "wallet/deposits"
+      }
+    }
+  },
+  "decouverte_auth": {
+    "requests": 51,
+    "status": {
+      "404": 39,
+      "405": 4,
+      "307": 1,
+      "200": 7
+    },
+    "leaks": [],
+    "examples": {
+      "200": {
+        "FFUFHASH": "4230013",
+        "FUZZ": "docs"
+      },
+      "307": {
+        "FFUFHASH": "423009",
+        "FUZZ": "bets/"
+      },
+      "404": {
+        "FFUFHASH": "423001",
+        "FUZZ": "admin"
+      },
+      "405": {
+        "FFUFHASH": "423008",
+        "FUZZ": "bets"
+      }
+    }
+  },
+  "methodes_mise": {
+    "requests": 9,
+    "status": {
+      "400": 1,
+      "405": 8
+    },
+    "leaks": [],
+    "examples": {
+      "400": {
+        "FFUFHASH": "e5a929",
+        "FUZZ": "FOO"
+      },
+      "405": {
+        "FFUFHASH": "e5a921",
+        "FUZZ": "GET"
+      }
+    }
+  },
+  "bet_id_injection": {
+    "requests": 23,
+    "status": {
+      "404": 23
+    },
+    "leaks": [],
+    "examples": {
+      "404": {
+        "FFUFHASH": "390b29",
+        "FUZZ": "<script>alert(1)</script>"
+      }
+    }
+  },
+  "mise_montant": {
+    "requests": 200,
+    "status": {
+      "422": 63,
+      "201": 1,
+      "409": 6,
+      "429": 130
+    },
+    "leaks": [],
+    "examples": {
+      "201": {
+        "FFUFHASH": "5d6747",
+        "FUZZ": "500",
+        "KEY": "<cle-idempotence-aleatoire>"
+      },
+      "409": {
+        "FFUFHASH": "5d6748",
+        "FUZZ": "1000",
+        "KEY": "<cle-idempotence-aleatoire>"
+      },
+      "422": {
+        "FFUFHASH": "5d6741",
+        "FUZZ": "0",
+        "KEY": "<cle-idempotence-aleatoire>"
+      },
+      "429": {
+        "FFUFHASH": "5d6741f",
+        "FUZZ": "{}",
+        "KEY": "<cle-idempotence-aleatoire>"
+      }
+    }
+  },
+  "mise_issue": {
+    "requests": 200,
+    "status": {
+      "422": 77,
+      "429": 123
+    },
+    "leaks": [],
+    "examples": {
+      "422": {
+        "FFUFHASH": "fcbbc1",
+        "FUZZ": "' OR '1'='1",
+        "KEY": "<cle-idempotence-aleatoire>"
+      },
+      "429": {
+        "FFUFHASH": "fcbbc22",
+        "FUZZ": "{{7*7}}",
+        "KEY": "<cle-idempotence-aleatoire>"
+      }
+    }
+  },
+  "pari_titre": {
+    "requests": 24,
+    "status": {
+      "201": 22,
+      "422": 2
+    },
+    "leaks": [],
+    "examples": {
+      "201": {
+        "FFUFHASH": "22ce91",
+        "FUZZ": "' OR '1'='1"
+      },
+      "422": {
+        "FFUFHASH": "22ce94",
+        "FUZZ": "\" OR \"\"=\""
+      }
+    }
+  },
+  "pari_min_stake": {
+    "requests": 39,
+    "status": {
+      "422": 25,
+      "201": 7,
+      "429": 7
+    },
+    "leaks": [],
+    "examples": {
+      "201": {
+        "FFUFHASH": "8e49c4",
+        "FUZZ": "100"
+      },
+      "422": {
+        "FFUFHASH": "8e49c1",
+        "FUZZ": "0"
+      },
+      "429": {
+        "FFUFHASH": "8e49c1f",
+        "FUZZ": "{}"
+      }
+    }
+  },
+  "login_injection": {
+    "requests": 24,
+    "status": {
+      "422": 5,
+      "401": 19
+    },
+    "leaks": [],
+    "examples": {
+      "401": {
+        "FFUFHASH": "f7d4714",
+        "FUZZ": "0"
+      },
+      "422": {
+        "FFUFHASH": "f7d4716",
+        "FUZZ": "\\"
+      }
+    }
+  },
+  "webhook_signature": {
+    "requests": 24,
+    "status": {
+      "400": 24
+    },
+    "leaks": [],
+    "examples": {
+      "400": {
+        "FFUFHASH": "26ea23",
+        "FUZZ": "1; DROP TABLE bets--"
+      }
+    }
+  }
+}

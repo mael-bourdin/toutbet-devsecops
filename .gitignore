@@ -5,3 +5,5 @@ __pycache__/
 *.db
 .env
 .DS_Store
+.schemathesis/
+reports/dast/*/ffuf_*_bodies/

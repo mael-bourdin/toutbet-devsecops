@@ -16,6 +16,7 @@ class Settings:
     jwt_secret: str = field(default_factory=lambda: _required("TOUTBET_JWT_SECRET"))
     audit_hmac_key: str = field(default_factory=lambda: _required("TOUTBET_AUDIT_KEY"))
     psp_webhook_secret: str = field(default_factory=lambda: _required("TOUTBET_PSP_WEBHOOK_SECRET"))
+    expose_docs: bool = field(default_factory=lambda: os.environ.get("TOUTBET_EXPOSE_DOCS") == "1")
     jwt_ttl_seconds: int = 900  # jetons courts : 15 min
     jwt_issuer: str = "toutbet-api"
     jwt_audience: str = "toutbet-mobile"

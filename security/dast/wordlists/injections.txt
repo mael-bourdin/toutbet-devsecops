@@ -1,0 +1,24 @@
+' OR '1'='1
+' OR 1=1--
+1; DROP TABLE bets--
+" OR ""="
+admin'--
+../../etc/passwd
+..%2F..%2Fetc%2Fpasswd
+%00
+<script>alert(1)</script>
+{{7*7}}
+${7*7}
+%27
+' UNION SELECT password_hash FROM users--
+00000000-0000-0000-0000-000000000000
+*
+%
+_
+null
+-1
+0
+1
+\
+%0d%0aSet-Cookie:x=1
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA

@@ -1,0 +1,10 @@
+[OK ] Grand livre équilibré (somme des écritures = 0) : somme = 0
+[KO ] Aucun solde parieur négatif : 6 comptes, pire = -38000 centimes
+[OK ] Séquestre de chaque pari ouvert = somme des mises : 0 écarts
+[KO ] Chaîne d'audit HMAC intègre
+
+Événements IAST : {'request': 2413, 'exception': 2}
+Requêtes HTTP observées : 2413 ; statuts : {200: 277, 201: 696, 405: 30, 404: 113, 307: 2, 401: 36, 422: 306, 409: 151, 429: 692, 400: 42, 403: 67, 413: 1}
+Max requêtes SQL par appel : 18 (POST /bets/85f21b1a-6728-4865-9c03-efcfe52c46f8/votes)
+  - exception: {"kind": "exception", "method": "POST", "path": "/bets/0f1146c9-75ad-40c9-9b9f-16ae58394e0c/wagers", "type": "ValueError", "message": "Out of range float values are not JSON compliant: nan"}
+  - exception: {"kind": "exception", "method": "POST", "path": "/bets/0f1146c9-75ad-40c9-9b9f-16ae58394e0c/wagers", "type": "ValueError", "message": "Out of range float values are not JSON compliant: nan"}

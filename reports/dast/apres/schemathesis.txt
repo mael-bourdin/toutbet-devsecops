@@ -1,0 +1,514 @@
+Schemathesis v4.34.1
+━━━━━━━━━━━━━━━━━━━━
+
+ ✅  Loaded specification from http://127.0.0.1:8000/openapi.json (in 0.64s)
+
+     Base URL:         http://127.0.0.1:8000/
+     Specification:    Open API 3.1.0
+     Operations:       14 selected / 14 total
+
+ ✅  API capabilities:
+
+     Supports NULL byte in headers:                            ✘
+     Accepts backslash and control characters in URL paths:    ✓
+
+ ⏭   Examples (in 0.02s)
+
+     ⏭  14 skipped
+
+ ❌  Coverage (in 1.51s)
+
+     ✅  1 passed  ❌ 13 failed
+
+ ❌  Fuzzing (in 1.03s)
+
+     ✅  3 passed  ❌ 11 failed
+
+ ❌  Stateful (in 4.27s)
+
+     Scenarios:    94
+     API Links:    0 covered / 31 selected / 31 total (31 inferred)
+
+     ✅ 82 passed  ❌ 12 failed
+
+=================================== FAILURES ===================================
+_________________________________ GET /auth/me _________________________________
+1. Test Case ID: LnwQDh
+
+- ST103 Undocumented status code
+
+    Received: 401
+    Documented: 200
+
+[401] Unauthorized:
+
+    `{"detail":"Authentification requise"}`
+
+Reproduce with:
+
+    curl -X GET http://127.0.0.1:8000/auth/me
+
+    st replay LnwQDh
+
+______________________________ GET /bets/{bet_id} ______________________________
+1. Test Case ID: Pa8cos
+
+- ST103 Undocumented status code
+
+    Received: 404
+    Documented: 200, 422
+
+[404] Not Found:
+
+    `{"detail":"Pari introuvable"}`
+
+Reproduce with:
+
+    curl -X GET -H 'Authorization: [Filtered]' http://127.0.0.1:8000/bets/d7b8eb9f-5f87-46b5-baac-215cfb0dc803
+
+    st replay Pa8cos
+
+_________________________________ GET /wallet __________________________________
+1. Test Case ID: 2MGqSB
+
+- ST103 Undocumented status code
+
+    Received: 401
+    Documented: 200
+
+[401] Unauthorized:
+
+    `{"detail":"Authentification requise"}`
+
+Reproduce with:
+
+    curl -X GET http://127.0.0.1:8000/wallet
+
+    st replay 2MGqSB
+
+_______________________________ POST /auth/login _______________________________
+1. Test Case ID: LLltAd
+
+- ST103 Undocumented status code
+
+    Received: 401
+    Documented: 200, 422
+
+[401] Unauthorized:
+
+    `{"detail":"Identifiants invalides"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d '{"password": "[Filtered]", "username": ""}' http://127.0.0.1:8000/auth/login
+
+    st replay LLltAd
+
+2. Test Case ID: 0VQWJH
+
+- ST103 Undocumented status code
+
+    Received: 400
+    Documented: 200, 422
+
+[400] Bad Request:
+
+    `{"detail":"There was an error parsing the body"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d $'\x00\x00\x00\x00\x00\x00\x00\x00\x00' http://127.0.0.1:8000/auth/login
+
+    st replay 0VQWJH
+
+_____________________________ POST /auth/register ______________________________
+1. Test Case ID: NMU2By
+
+- ST103 Undocumented status code
+
+    Received: 409
+    Documented: 201, 422
+
+[409] Conflict:
+
+    `{"detail":"Inscription impossible"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d '{"email": "0@0.com", "password": "[Filtered]", "username": "000"}' http://127.0.0.1:8000/auth/register
+
+    st replay NMU2By
+
+__________________________________ POST /bets __________________________________
+1. Test Case ID: 2xklii
+
+- ST103 Undocumented status code
+
+    Received: 401
+    Documented: 201, 422
+
+[401] Unauthorized:
+
+    `{"detail":"Authentification requise"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Content-Type: application/json' -d '{"bookie_fee_bps": 0, "closes_at": "2000-01-01T00:00:00Z", "description": "", "min_stake_cents": 100, "title": "00000"}' http://127.0.0.1:8000/bets
+
+    st replay 2xklii
+
+2. Test Case ID: BMga9D
+
+- ST103 Undocumented status code
+
+    Received: 400
+    Documented: 201, 422
+
+[400] Bad Request:
+
+    `{"detail":"There was an error parsing the body"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d $'\x00\x00\x00\x00\x00' http://127.0.0.1:8000/bets
+
+    st replay BMga9D
+
+_______________________ POST /bets/{bet_id}/invitations ________________________
+1. Test Case ID: 2guI9w
+
+- ST103 Undocumented status code
+
+    Received: 404
+    Documented: 201, 422
+
+[404] Not Found:
+
+    `{"detail":"Pari introuvable"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d '{"username": "000"}' http://127.0.0.1:8000/bets/d7b8eb9f-5f87-46b5-baac-215cfb0dc803/invitations
+
+    st replay 2guI9w
+
+_________________________ POST /bets/{bet_id}/resolve __________________________
+1. Test Case ID: OMTSiQ
+
+- ST103 Undocumented status code
+
+    Received: 403
+    Documented: 200, 422
+
+[403] Forbidden:
+
+    `{"detail":"Réservé aux modérateurs"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d '{"outcome": null}' http://127.0.0.1:8000/bets/d7b8eb9f-5f87-46b5-baac-215cfb0dc803/resolve
+
+    st replay OMTSiQ
+
+__________________________ POST /bets/{bet_id}/result __________________________
+1. Test Case ID: KCubTU
+
+- ST103 Undocumented status code
+
+    Received: 404
+    Documented: 200, 422
+
+[404] Not Found:
+
+    `{"detail":"Pari introuvable"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d '{"outcome": "no"}' http://127.0.0.1:8000/bets/d7b8eb9f-5f87-46b5-baac-215cfb0dc803/result
+
+    st replay KCubTU
+
+__________________________ POST /bets/{bet_id}/votes ___________________________
+1. Test Case ID: Jj6azK
+
+- ST103 Undocumented status code
+
+    Received: 404
+    Documented: 200, 422
+
+[404] Not Found:
+
+    `{"detail":"Pari introuvable"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d '{"confirms": false}' http://127.0.0.1:8000/bets/d7b8eb9f-5f87-46b5-baac-215cfb0dc803/votes
+
+    st replay Jj6azK
+
+__________________________ POST /bets/{bet_id}/wagers __________________________
+1. Test Case ID: DByWcf
+
+- ST103 Undocumented status code
+
+    Received: 404
+    Documented: 201, 422
+
+[404] Not Found:
+
+    `{"detail":"Pari introuvable"}`
+
+Reproduce with:
+
+    curl -X POST -H 'idempotency-key: [Filtered]' -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d '{"outcome": "no", "stake_cents": 100}' http://127.0.0.1:8000/bets/d7b8eb9f-5f87-46b5-baac-215cfb0dc803/wagers
+
+    st replay DByWcf
+
+____________________________ POST /wallet/deposits _____________________________
+1. Test Case ID: 9tXEjD
+
+- ST103 Undocumented status code
+
+    Received: 401
+    Documented: 201, 422
+
+[401] Unauthorized:
+
+    `{"detail":"Authentification requise"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Content-Type: application/json' -d '{"amount_cents": 100}' http://127.0.0.1:8000/wallet/deposits
+
+    st replay 9tXEjD
+
+2. Test Case ID: x4mBUi
+
+- ST103 Undocumented status code
+
+    Received: 400
+    Documented: 201, 422
+
+[400] Bad Request:
+
+    `{"detail":"There was an error parsing the body"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d $'\x00\x00\x00\x00\x00' http://127.0.0.1:8000/wallet/deposits
+
+    st replay x4mBUi
+
+___________________________ POST /wallet/withdrawals ___________________________
+1. Test Case ID: BhtCPz
+
+- ST103 Undocumented status code
+
+    Received: 401
+    Documented: 202, 422
+
+[401] Unauthorized:
+
+    `{"detail":"Ré-authentification échouée"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d '{"amount_cents": 100, "password": "[Filtered]"}' http://127.0.0.1:8000/wallet/withdrawals
+
+    st replay BhtCPz
+
+2. Test Case ID: dZIbBg
+
+- ST103 Undocumented status code
+
+    Received: 400
+    Documented: 202, 422
+
+[400] Bad Request:
+
+    `{"detail":"There was an error parsing the body"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d $'\x00\x00\x00\x00\x00' http://127.0.0.1:8000/wallet/withdrawals
+
+    st replay dZIbBg
+
+________________________________ Stateful tests ________________________________
+1. Test Case ID: nImg8Z
+
+- ST103 Undocumented status code
+
+    Received: 400
+    Documented: 201, 422
+
+[400] Bad Request:
+
+    `{"detail":"There was an error parsing the body"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'idempotency-key: [Filtered]' -H 'Content-Type: application/json' -d '����' http://127.0.0.1:8000/bets/d7b8eb9f-5f87-46b5-baac-215cfb0dc803/wagers
+
+    st replay nImg8Z
+
+2. Test Case ID: Kosrta
+
+- ST103 Undocumented status code
+
+    Received: 429
+    Documented: 200, 422
+
+[429] Too Many Requests:
+
+    `{"detail":"Trop de requêtes"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d '{"confirms": false}' http://127.0.0.1:8000/bets/r%F1%B4%8C%AC%C3%9F%C2%90%F3%B2%AB%8A%19I%5D%C3%8E/votes
+
+    st replay Kosrta
+
+3. Test Case ID: 6eWUSG
+
+- ST103 Undocumented status code
+
+    Received: 429
+    Documented: 200, 422
+
+[429] Too Many Requests:
+
+    `{"detail":"Trop de requêtes"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d '{"outcome": "no"}' http://127.0.0.1:8000/bets/d7b8eb9f-5f87-46b5-baac-215cfb0dc803/result
+
+    st replay 6eWUSG
+
+4. Test Case ID: 5T4F4x
+
+- ST103 Undocumented status code
+
+    Received: 429
+    Documented: 201, 422
+
+[429] Too Many Requests:
+
+    `{"detail":"Trop de requêtes"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d '{"title": "\u009f\udb77\udd08\u0098\u009d\u00ebK\u00b26\udb1b\ude7f", "min_stake_cents": 269.0, "bookie_fee_bps": 69.0, "description": "\u00d8<\u0012", "closes_at": "0990-03-04T22:38:36.579063+16:20"}' http://127.0.0.1:8000/bets
+
+    st replay 5T4F4x
+
+5. Test Case ID: NXb2G5
+
+- ST103 Undocumented status code
+
+    Received: 429
+    Documented: 201, 422
+
+[429] Too Many Requests:
+
+    `{"detail":"Trop de requêtes"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d '{"outcome": "no", "stake_cents": 100}' http://127.0.0.1:8000/bets/d7b8eb9f-5f87-46b5-baac-215cfb0dc803/wagers
+
+    st replay NXb2G5
+
+6. Test Case ID: hwcoQZ
+
+- ST103 Undocumented status code
+
+    Received: 400
+    Documented: 200, 422
+
+[400] Bad Request:
+
+    `{"detail":"There was an error parsing the body"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d $'"��\x19' http://127.0.0.1:8000/bets/d7b8eb9f-5f87-46b5-baac-215cfb0dc803/result
+
+    st replay hwcoQZ
+
+7. Test Case ID: zj2b9W
+
+- ST103 Undocumented status code
+
+    Received: 400
+    Documented: 200, 422
+
+[400] Bad Request:
+
+    `{"detail":"There was an error parsing the body"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d 'iML��' http://127.0.0.1:8000/bets/d7b8eb9f-5f87-46b5-baac-215cfb0dc803/votes
+
+    st replay zj2b9W
+
+8. Test Case ID: sh5h4F
+
+- ST103 Undocumented status code
+
+    Received: 400
+    Documented: 200, 422
+
+[400] Bad Request:
+
+    `{"detail":"There was an error parsing the body"}`
+
+Reproduce with:
+
+    curl -X POST -H 'Authorization: [Filtered]' -H 'Content-Type: application/json' -d '��' http://127.0.0.1:8000/bets/d7b8eb9f-5f87-46b5-baac-215cfb0dc803/resolve
+
+    st replay sh5h4F
+
+=================================== WARNINGS ===================================
+
+Authentication failed: 3 operations returned only 401/403 responses
+
+401 Unauthorized (2 operations):
+  - POST /auth/login
+  - POST /wallet/withdrawals
+403 Forbidden (1 operation):
+  - POST /bets/{bet_id}/resolve
+
+💡 Ensure valid authentication credentials are set via `--auth` or `-H`
+
+=================================== SUMMARY ====================================
+
+API Operations:
+  Selected: 14/14
+  Tested: 14
+
+Test Phases:
+  ⏭  Examples
+  ❌ Coverage
+  ❌ Fuzzing
+  ❌ Stateful
+
+Failures:
+  ❌ ST103 Undocumented status code: 25
+
+For more information, run `st explain ST103`.
+
+Warnings:
+  ⚠️ Authentication failed: 3 operations returned only 401/403 responses
+
+Test cases:
+  567 generated, 25 found 25 unique failures
+
+Reports:
+  - JUnit: reports/dast/apres/schemathesis/junit-20261124T123242Z.xml
+
+Seed: 309287514460451559468038275680788554436
+
+======================= 25 failures, 1 warning in 7.01s ========================

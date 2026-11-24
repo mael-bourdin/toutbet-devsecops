@@ -1,0 +1,6 @@
+2 passed, 18 deselected in 2.09s
+2 passed, 18 deselected in 2.20s
+2 passed, 18 deselected in 7.36s
+2 passed, 18 deselected in 4.58s
+2 passed, 18 deselected in 3.94s
+2 passed, 18 deselected in 5.90s
