@@ -1,0 +1,24 @@
+..........F.........                                                     [100%]
+=================================== FAILURES ===================================
+_____________ test_as07_paris_simultanes_ne_depassent_pas_le_solde _____________
+
+api = <tests.e2e.conftest.Api object at 0x10f309160>
+
+    def test_as07_paris_simultanes_ne_depassent_pas_le_solde(api):
+        """Le même parieur (solde 100 €) mise 80 € sur 20 paris différents au même instant.
+        Une seule mise doit passer ; le solde ne doit jamais devenir négatif."""
+        alice = api.user("alice")
+        api.fund(alice, 10_000)
+        bets = [api.bet(api.user("bookie"), [alice]) for _ in range(20)]  # 1 bookie/pari : limite d'écriture
+        with ThreadPoolExecutor(20) as ex:
+            codes = list(ex.map(lambda b: api.wager(alice, b["id"], stake=8000).status_code, bets))
+        accepted = codes.count(201)
+        solde = api.balance(alice)
+>       assert solde >= 0, f"Solde négatif : {solde} centimes, {accepted} mises acceptées ({codes})"
+E       AssertionError: Solde négatif : -30000 centimes, 5 mises acceptées ([409, 201, 409, 409, 409, 409, 409, 409, 409, 201, 409, 409, 201, 409, 201, 409, 201, 409, 409, 409])
+E       assert -30000 >= 0
+
+tests/e2e/test_e2e_abuse_stories.py:133: AssertionError
+=========================== short test summary info ============================
+FAILED tests/e2e/test_e2e_abuse_stories.py::test_as07_paris_simultanes_ne_depassent_pas_le_solde
+1 failed, 19 passed in 4.70s

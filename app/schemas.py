@@ -37,8 +37,8 @@ class UserOut(BaseModel):
 class BetCreateIn(Strict):
     title: str = Field(min_length=5, max_length=140)
     description: str = Field(default="", max_length=2000)
-    min_stake_cents: int = Field(default=100, ge=100, le=50_000)
-    bookie_fee_bps: int = Field(default=0, ge=0, le=1000)
+    min_stake_cents: int = Field(default=100, ge=100, le=50_000, strict=True)
+    bookie_fee_bps: int = Field(default=0, ge=0, le=1000, strict=True)
     closes_at: datetime
 
 
@@ -63,7 +63,7 @@ class InviteIn(Strict):
 
 class WagerIn(Strict):
     outcome: Outcome
-    stake_cents: int = Field(ge=100, le=50_000)
+    stake_cents: int = Field(ge=100, le=50_000, strict=True)  # entier JSON strict : ni "100", ni 1e3
 
 
 class WagerOut(BaseModel):
@@ -89,7 +89,7 @@ class ResolveIn(Strict):
 
 
 class DepositIn(Strict):
-    amount_cents: int = Field(ge=100, le=100_000)
+    amount_cents: int = Field(ge=100, le=100_000, strict=True)
 
 
 class DepositOut(BaseModel):
@@ -100,7 +100,7 @@ class DepositOut(BaseModel):
 
 
 class WithdrawIn(Strict):
-    amount_cents: int = Field(ge=100, le=100_000)
+    amount_cents: int = Field(ge=100, le=100_000, strict=True)
     password: str = Field(max_length=128)  # ré-authentification pour les opérations sensibles
 
 

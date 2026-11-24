@@ -3,7 +3,7 @@ import hashlib
 import hmac
 import json
 
-from sqlalchemy import select
+from sqlalchemy import func, select, update
 from sqlalchemy.orm import Session
 
 from app.config import get_settings
@@ -19,6 +19,10 @@ def _digest(prev_hash: str, actor_id: str | None, action: str, payload: str) -> 
 
 def audit(db: Session, actor_id: str | None, action: str, **data) -> AuditLog:
     """Ajoute une entrée dans la même transaction que l'action métier."""
+    # Verrou sur la dernière entrée avant de la lire : deux transactions concurrentes ne peuvent pas
+    # chaîner sur le même prev_hash (la chaîne « fourcherait » et verify_chain échouerait).
+    last_id = select(func.max(AuditLog.id)).scalar_subquery()
+    db.execute(update(AuditLog).where(AuditLog.id == last_id).values(prev_hash=AuditLog.prev_hash))
     last = db.scalars(select(AuditLog).order_by(AuditLog.id.desc()).limit(1)).first()
     prev_hash = last.hash if last else GENESIS
     payload = json.dumps(data, sort_keys=True, default=str)

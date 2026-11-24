@@ -1,0 +1,8 @@
+[OK ] Grand livre équilibré (somme des écritures = 0) : somme = 0
+[OK ] Aucun solde parieur négatif : 0 comptes, pire = 0 centimes
+[OK ] Séquestre de chaque pari ouvert = somme des mises : 0 écarts
+[OK ] Chaîne d'audit HMAC intègre
+
+Événements IAST : {'request': 2453}
+Requêtes HTTP observées : 2453 ; statuts : {200: 276, 201: 674, 404: 131, 405: 30, 307: 2, 401: 39, 422: 329, 409: 168, 429: 689, 400: 44, 403: 70, 413: 1}
+Max requêtes SQL par appel : 20 (POST /bets/9c2070df-f024-44ba-b517-1c2a210523ad/votes)

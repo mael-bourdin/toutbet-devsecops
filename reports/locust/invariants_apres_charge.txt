@@ -1,0 +1,4 @@
+[OK ] Grand livre équilibré (somme des écritures = 0) : somme = 0
+[OK ] Aucun solde parieur négatif : 0 comptes, pire = 0 centimes
+[OK ] Séquestre de chaque pari ouvert = somme des mises : 0 écarts
+[OK ] Chaîne d'audit HMAC intègre

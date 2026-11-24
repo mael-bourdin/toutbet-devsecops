@@ -1,0 +1,4104 @@
+{
+  "decouverte_anonyme": {
+    "requests": 51,
+    "status": {
+      "404": 39,
+      "405": 4,
+      "200": 5,
+      "307": 1,
+      "401": 2
+    },
+    "leaks": [
+      {
+        "file": "fb6e50a0f4959771c47c2d516d279de9",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "33edacffc7773d17d20772822f9f57bc",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "19d788be49f35f90894a7334f1a12e76",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a8b832a2924a3c8f259cc8f06bfb7e50",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "f2c9af22c57c781a84d35378d93d98fa",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "59da92ffa9b9fe6e2e6b85c53fac2ee7",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "f79fd8366308e041c42503a3e1ebc6c0",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "472bb3ece8a6792836722d24f765780a",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "cb5fa325571caaa2822729e379d7351a",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "b76bb40672a3a4e3416c1c045787074d",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "830642a04bf56988a163cc330f29b84b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "f27680dcbc1497edc7efc20e1bae09bf",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "ee07c5a872bc2b8949264359e7b33c6c",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "81944ba77fb6919beecac4dd66cd48ae",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "d1167508b42fdfa01e01a3f99e2a49ba",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "72ae62db00cd0dc3c33bd15055c0bf9b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "15185e6e6e56456a037474a4fb40ec9a",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "b8ff559666dd82146ad25a563686bd6c",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a02846a1f97f7debab4770b924e70064",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "47defb4c894ecd8b1b051b642c9a794d",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "271b22ad854b353c7d211f43863067db",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "0508aeefde1dd07047a0a78c1bf5c9ee",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "7155a6f120200212d116db0f9e727fb0",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a48b5d50c3da648f179e07356778b3ee",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "4b19e910b9dc6dbd30767d50864c5d4d",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "5d84178845a4ce936616ad5ada9692a7",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "5fe7b8661ca5a621633acdcc1e617b10",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "8fe265da048497de3e4fbc6dc23c654c",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a6550e9338004c31a630c28eb799d727",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "979b96aa3c40006093119c707bcaca0c",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "b08898c9e76cf11415285a9a5d6bca86",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "c2ea0122ad63f1a8236e74a0c1f58711",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "223ae1ef2c65d677cdfeac1a4cb9e4eb",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "4e43c55f36cc237eb1adcf2b217f7262",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "103c46cdc907469a1db90ecf71c89f06",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "86d972dcc701a0b36d76249f6cf2c505",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9aefb95c97b55599537c0c6ecb5f1583",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9e062a5ac83d2d0c019be3fd23e46375",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "41079b75f1a88d4369e42dd293e3a03e",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "968c5059c1495ff71553ae2978206f08",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "294f10a3188649d93bfeb2be6cc12333",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "4807453ba2fcbf5a7ac9d24e0afc7eff",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "c4b82d3889e08bb6e98d2597ab9a2ca5",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "84ebe8ba9a0690e5069a93b30281f01c",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "4fd87d710eb65cc9ae742e08b9c0f090",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "de4a187755efd894db00d91269e2c5c1",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a6c96c8dd269db6beec878256db1ce42",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "e28bebf8a53ff01d5363b727baf006a3",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9856df036aafaf54a39d689017d05a68",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "969e67e773406051c1bf3701b096d2dd",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "acce14990b7047e99541b79aed54c938",
+        "markers": [
+          "uvicorn"
+        ]
+      }
+    ],
+    "examples": {
+      "200": {
+        "FFUFHASH": "6abef15",
+        "FUZZ": "openapi.json"
+      },
+      "307": {
+        "FFUFHASH": "6abef9",
+        "FUZZ": "bets/"
+      },
+      "401": {
+        "FFUFHASH": "6abefd",
+        "FUZZ": "wallet"
+      },
+      "404": {
+        "FFUFHASH": "6abef7",
+        "FUZZ": "auth/users"
+      },
+      "405": {
+        "FFUFHASH": "6abef8",
+        "FUZZ": "bets"
+      }
+    }
+  },
+  "decouverte_auth": {
+    "requests": 51,
+    "status": {
+      "404": 39,
+      "200": 7,
+      "405": 4,
+      "307": 1
+    },
+    "leaks": [
+      {
+        "file": "6b2bd9329aedc2982552b44d8f1616a9",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "49ac254efc688cdba88b7ecccac7e30a",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "1715ba11620e35fd9cfca4603e8ffb5a",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "bea6bb67219daaa697e007045adc5b38",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "2130200e1666e9a875398062ca05a733",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "40aaf2654842c1fcb9ab4809fb1f05d8",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "5b87f23d69d11de5e0b8584ff6f0e478",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "2af6107582caf00d9a7e7e3a7bc9c114",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "2d27fd845ba94800992ccae2077c69cb",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "831fd5736b71ac175ea1784b506401a4",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "f3bb4c63579ef0711572c73cbeed95eb",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "27f878e2fee6837bcbe9d759118c35cc",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9736ab5b22d9f0eed6cfda5439ffb901",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "93d0af9f59d973a4197d1b48a02c88d6",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "16e12b4a4c8247cd6cf26722349f0842",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "fbbc63325e387af1cbbad8a329edb0d6",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9b13a9c4fdc243b064f2f96f1d500548",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "80ba7f720617d730f314bacac96ba15c",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "0c281787014a04413754fed72682918f",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "bc0c461e72a0d05dc867ff03c2a5952c",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "58e3566e230e2e328c565ef861401b75",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "2d1ff6e90f46b1068a894d760cc09927",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "cfdc3f51d33ee80d9c1a50f9d5921e63",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "68971c880b15910a263dd9db34c0f7f5",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "246fef847644d64ac688731badb9fa8d",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "c37df7884cd778e87e513be17161621e",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "f5af988898896b165de1b3e8eefb5b63",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "409d41752af47ce7bb200c29cc4b8fa9",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "43ad2fed550bb96ec04dbee8b6e9292d",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "be6eca9f36514fb24a080fc299b854cb",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "3c3f78965cd834c7bdc6244b26f2ba51",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "f9cf4aa3dc472e2488dea8b1b3685ffc",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "8b38c0feae85d8274b3287d0d127e873",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a06dfcd1d63047f3299eef6666c6e0dc",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "fb57f667639e2fb4c2faeb1715c25cf7",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "f54acbbe49b24e0833e7d6d9fcb03775",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "92e843085988e4c0396a26a998be62e0",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "df47ce155be0400c2f3aea29852e72e4",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a2399bfd09e99790c4609e179f11b2d1",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "1e9b001f997e8186d2ca3961e31fc77c",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "8d89b69d7a7c5989ed15d12c58a217c1",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "b6d815e81e63f9b0dedf8dbd408b065a",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "e4c8d2f2198b14b24f041397a235753d",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "0ead134e2eea540184190f682106d469",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "6b40036f6f4af14e735cebd8e290cebb",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "d18c152675d3ddfb8d1aa1839d4c90e2",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "b3813839c69c2a6a977917ecce6e71e1",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "49c857b1a9cd36e0604bd949f4ca9eed",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "e723d936ad6620164a676f35f6e25ebb",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "1f4236e241b500adc24f61e2c17cad6f",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "2e6aa4308171827a1f1c9aed9ed0a51e",
+        "markers": [
+          "uvicorn"
+        ]
+      }
+    ],
+    "examples": {
+      "200": {
+        "FFUFHASH": "c41be13",
+        "FUZZ": "docs"
+      },
+      "307": {
+        "FFUFHASH": "c41be9",
+        "FUZZ": "bets/"
+      },
+      "404": {
+        "FFUFHASH": "c41be2",
+        "FUZZ": "admin/"
+      },
+      "405": {
+        "FFUFHASH": "c41be12",
+        "FUZZ": "payments/webhook"
+      }
+    }
+  },
+  "methodes_mise": {
+    "requests": 9,
+    "status": {
+      "400": 1,
+      "405": 8
+    },
+    "leaks": [
+      {
+        "file": "30fba7ad99064ff28faa69d0b92f2aa5",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "c423bb29bbd68adf210ea0e7f345038d",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "d9960dd6342df02b8507d6baffd40903",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "3c4b138f5284c9fa9e7650572a64ded2",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "c1865707bdeb796db1015d78d8ef8ef1",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "6bd29d247004950da66a87146b0aa3da",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "73dfd32b41d60f64ff15ec554cc90564",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "2b231bc0db2887546c9a8480731fc449",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "c94d47266686c77641ee858d4c3bc403",
+        "markers": [
+          "uvicorn"
+        ]
+      }
+    ],
+    "examples": {
+      "400": {
+        "FFUFHASH": "661819",
+        "FUZZ": "FOO"
+      },
+      "405": {
+        "FFUFHASH": "661812",
+        "FUZZ": "PUT"
+      }
+    }
+  },
+  "bet_id_injection": {
+    "requests": 23,
+    "status": {
+      "404": 23
+    },
+    "leaks": [
+      {
+        "file": "e5e0292f33a66c37c81cc0b197e7c622",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "20906b4d3ce25236160a7e5c4daa20f6",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a2e188f53d7711710279ace45895588b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "bafef60786269eea66c5b954d0b63694",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "e642faeefea703b213d7467cd927ca9b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "210eff4d40e8134bfdd81d52d3e142fa",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "37e6567c57711c24616f3c7f117c8541",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "65662e3a13f78a5f98cb634ccd516618",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "d3354132a698160e8917253a2d161cfa",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "5d0d5c52ceccbe905bc8311e83499b7e",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "ad2634a9c60fde2c1b96bca34bffacbd",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "2b4031188c6aeb3311b10db6bb6b3b8a",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "ad95467650ed7e0b71bbf14c823ee6bc",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "09b1b86f366a6ca22135305638a45a36",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9006c71b9ea7a61893447d510e82ef20",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a02a2893cc2beaa96e60395336b293f0",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "67c4561b1bd4a62e6e43b4326a88c7ef",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "efd8bfa59c96b9b8358b99c7b750ffc0",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "7fe0d5c94b75f09b8395f382a95b8910",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "ae060a632f08fa80fb1c74c1e9cbd5a3",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "57aa8ac6689fca35e07f7f4d8857bad7",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "c3d652cf3aef16228578427e038d0e78",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "6c91ff468406db8dac45d8ef768ce0b7",
+        "markers": [
+          "uvicorn"
+        ]
+      }
+    ],
+    "examples": {
+      "404": {
+        "FFUFHASH": "f65fb6",
+        "FUZZ": "../../etc/passwd"
+      }
+    }
+  },
+  "mise_montant": {
+    "requests": 200,
+    "status": {
+      "422": 58,
+      "201": 1,
+      "409": 9,
+      "429": 131,
+      "500": 1
+    },
+    "leaks": [
+      {
+        "file": "d856334d5986eeba8e5da4de9a54ab49",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "14172e05ddb9e6672aa939201bec1789",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "878a1f001a407795c5dbf5ed04488a67",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "5b741b84ca1408216b411eafc991bb60",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "f21238dc5080196dcec96c3ff11b0318",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "61934edf7b37caaf4e527f6f2b02dd28",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "1e541bc43b394fbf442f92d1bbc7a4d5",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "8134041172d8dd1b4548ad5dbee69650",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "5881d49937983807426c8faa7ca5c258",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "e5e833872d82a61ec6c178be591eaae1",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "f55c74fc85140d50783c596f6dcfdaac",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9d3babc215f73937da4ce7b742f6386e",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "c0d261f8405f98b97ccd0f6a93871cae",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "e4070c308c70956dae93825f8c8b0aea",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "6656e8adb5503d9c6facffff84af22e0",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "d977d9d1af5b202dfc8748ffcb4a9c77",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "84a78aa9669909edb4875667ce9cdc76",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "deae12bf1355b25591dde871b2840bb4",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "4d7cc160575d3821bba547e942fc61c4",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "2fa2d72e8d822925a369b70baaa75ec0",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "55542f4fd4f2dee94655d54d749caafb",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "f2ac2f009d8fec6da63b36f028ca007b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "e699f18531f9820ccca47db90646ee5c",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "456c4d39e685da7f77cd6a5bafeb14de",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "518f52e185a4593c9bd323c31a6031d6",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "84c65398ee022cc50ed8e52f77b96207",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "4facb5bbf79b13e60df56ab5a858fca3",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "189600289613e38b48f2d0c01c24a6fe",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "dd6953fcc874deac4efd25b7a599a8bc",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "d1577f8f3b3c9f877a6bf38f1df893d8",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "15593522579eb139e01f0b8e0823bdc1",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "cb61d2dfbdf1a5913b3b4d7cd12d5717",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "b573d9be02d2e9be7b6955a39687f6e5",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "81579b6bd9416586147d9c15e4768082",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "f1f6728bda9667db48728119f0e7a94b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a740d734fbbeabd2f8d1664decc8d16c",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a16c265d4002b5f99008c06e6c33b474",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "22b6426f87b8ba8d2f104ce40dbb8821",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "5ac58bd322813d810de8e32c475b9d03",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "64075e73a5eb9261c57b2fde3828848b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "06263a11cc115b3a7e2722b20ecb1d4c",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "d22fb220961cccf0205f3f58ae230be7",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "d2469faa0d908a3575793cb0a572371f",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9c348d183f7ee7b9114fef4dda790bbb",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "44a03b0e34cb3e102b39d643603eb0da",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "cbfe5ac0deb3f3c3d3c5b59b13ee3be7",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "e5d091b55459d9a9d44eae6f1fa98934",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9e2797b4f23e2991bbc3ea566247bfe4",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "f6d16d19208784ce57d0fef3c67c1b05",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "73d947e246a04b4955cb47cd8d7c2c40",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "0e6e2411ede508242804a2955493a4a8",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "5289d8460c922816ba1a992712ece58f",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "f9d6d6a983beb9b1bf21f5e6fd541667",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "d0b3248e50b258aecbced210d4e6d4dd",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "08900de6a652070e3b08c89a7224565f",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "982fb4f2579259ffbbf46865e6000160",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "8dc863055ce37ca9e3aa7f6969059f5a",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a4ab66ea1f2bd3dcd86542b86cdac54f",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "e2748a52f6ae3c121272b64c121030bb",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "c0776eb74d6992c3b7283a8115041313",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "3754fd6b980f2045219d4f8331683af0",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "5959f83744f18005eada7879d1447259",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "5c3caf8330fab4089b7ef6a5136188d3",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "970b83e403fcecba32127c28b6f4e072",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "635ae7ae03298f0020d245298f075cc0",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "0f971de71d754df176265e60d80269a7",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "1e5df9db2b8a82d449d21d83bb8c8530",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "8828a881ec4cc33cf5be8ab000d44937",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "2b61c693ef26b56ef987ad0a8f829f16",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "adb607542982643450dc730f96f441d3",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "ce69f73606aec1fcae8b9da8d4d0a31c",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "b6b702fe1a03d899db83c2150a961a8a",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "fb93fc4a3843e1a3dd2f13a19566da50",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "bc017c50ba52d48d8746f815230aa440",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "890a936eaddc17af56a31d0f9dd014d9",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "7af033cc0d88104a74cbb8be522fe434",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "6eafecdf83764fd79b3d79245c1d2ddb",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "b8f5f0742597ba50c45941e1ca5f5367",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "4e660895a88b07de5a1d3ffac95b7dff",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "cdd0370a36022eb5cca5678307626fc6",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "ea58804da40ebb1450a89bc4862cd017",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "07a1e4125538bab08930432f0e380d05",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "65b160a6c8f905f1b273d957c6ca0348",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "58684b0cd48bb195434d0644c25b68b9",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "ada34e285bc880d7f31563a1d5d5daa4",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "07198949f0a4d62876e93cec1f434036",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "c2eb7962d3341fc5e47f9a744a7ec908",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "545b0de2c446859e665de5da50d83fa6",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "98bccb988e640e725fd18f2b8809e713",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "ef6d6753d70c3322879fb015b317b003",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "577645b907f75983b6fc558c4a8a5199",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "e5c2c5f3e98aeace95fe3c95b9d8a6bd",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "bf44f2aa9277e8085500841b5bacd58d",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "994638b5400c2685834454c348fb5dfe",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "6b8836baf38bec554460ff91a2b57375",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "659ddb4ce824cd4e39102fe3f677057e",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "ee26f80c9e462a6254ea3daaa170ddad",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "2f5922672f148e3e0dcf2caf7c537a7a",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "638c676d589c4507d729fa4e245f31c5",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "f1d7cebf8c263332059288cd004e961c",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "0b1a39dd3ce4d92169ca70034e3f8c35",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "17721b6fe4fbb11236d360e4c5017764",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "f668c37e1b741a4e75f225539f9aef75",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "fa29ec92acdb70cce570ae02b4271214",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "3820770769a45e18b38c978d5aed625a",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "040ce82bc07a6d56c4137a9509455d7b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "59cbcef08535bc60e117bddf32ad7fbf",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "b2e6eceeeaadc2176de9b7d19710a4a4",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "7a85e9d8bb4621396f4c3c86c7e91d44",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "edab770bd3d0d813ff3621257cb5b913",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "5a4ba22b7ad66f7498ba5b006decec48",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "5dd50eb047cd82de524879635036ff0a",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "97feb4474d45d2530ea809fbbea4558e",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "140d7a3a4a5bcd479b6ecad8baf931cd",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "fea7521286b3c43a59191081c1d307be",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9c84b42b557902eaef63cfd43788f4cd",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "5aab4798e4d0ba4053ba2a1b265c3f09",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "f544cdef4834ce7c772b5fcbeaba724b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "10589693aa89dad4e05be01e83896634",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "98053faeb7c67272dc4319a3e8b47479",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "f55a2f8043f12c57bd991bcc04b1a692",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "019e67e47c2a9f4cde5676552038ea82",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "89c3156daaf9115b6dfb42d6c33b1343",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9bcd3f4dfaad459a84249ebe87a0242d",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "bd75a0df7a076664f4367b5252e98bff",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "e45a45bc56894c91c5f63694ce3b86bb",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "6afcdbf5c319b8a28a843e75e3b83e1f",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "becce1909058127898503079e86db771",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "504a79fe1b30b326630d9abb70f70f0f",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "cfc18957d0882db889e2a32cc1f391a3",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "0d7f8d12667ddc453bfe3823ac7c2cb4",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9d5380d66c9085a773f549928bcda809",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "86c2259942e347422d267ed3b1bc5f58",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "95b39dcf2e3ce0b4f1d244b536ff33e9",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "6eb65c4b7c6b21b4c6947878a7154d92",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "7cf814e683a84a698aeb450eeec1e2eb",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "5ac6ce1ab3ea8e11cf4610a54ba071f3",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9f72b7765bfa083e78e90758757269a3",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "84109518e7f7b4579088d4251ed20d65",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9c1e6791dbf683d33ac203484c8c4c9d",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a2cbd965eb88efc4e56cc574ffb48d3b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "bf434b0695716637007de5a7d2a03834",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "c136ba691f9557ef9f40898d5c54f26d",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "801315c0d4b31dd6f5e82f4e4e2da5f7",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "e34dfaa88c1c49299fef226d3f5d04e1",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "79395ada1869c19682deb8d2c555a1d1",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "52cd2faf313287bde797ed3367081187",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "77b39ec48b9a0c71da82cecd0653e5d5",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "23d7226c6b9b6b86ce247fc6f75b9c95",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "ca54ade98931b9b40f50707b1a239fd0",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9528b3e8686cff71663d557e4af9c2c8",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "fe86ae9e06929c645e2df142e100c329",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "d4f94e10ece1dd049318719c9d3e388d",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "bc1719298824fb1296ab90015c58be01",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9608705940d32281fa1acb7c1c4a05bc",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9e3e3fef336ad4421d1cdf281f673546",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "b2598eadb8cb5c58255784aa46d1a2a8",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "fab42839d12ecb36e43c20e9e8c0a206",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "b5df528e18b65e4002c20e02abc1d537",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "7d528b6a941ae923e66645ed838a4334",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "350b02dce1f9a6b86bada1a68ffa0c58",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "b53844deab6e094bc36c74e724e8771f",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9f25bb607ef63be2ac8aca711add6c9e",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "023a91c11f3a334f0b72b8cd177f0276",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "456900c83a3e289a907013c6858a9333",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "56fd07146fac2f8c2aa942e6f331a4a8",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "fa0bbc6b6cda7ae86cca26879e16a824",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "676cf7ecbc5bcfffe2ac9b0af3e4216f",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "c926104772ef1cfe3ceeeb8db8e75dfd",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "275c003a68bd687b2cc1ad16926a7132",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "68a95800e3d7caf222634f8b237504e8",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "e09cc64f3a8ffad0809691b0f56f2383",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "838e333248e95e070043ab05aaf08ad1",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "6507f42da23d5cd48a9c772c6b2aace7",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "53767f6b3ef8dbe3dd20ec26ed729ee5",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a5c002afc9a6ce0f149d2606a65509b0",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "4c0f38fcc82d33ad1342a7fd63325024",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "0a3793aaa6221c8556e2b54e80e07dbf",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "0ec87c3a12866d6d284a98cdc242b5e2",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "e6b939ee6d2a20383825668dcf13519e",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "20e03af0d4c08e528d00d635f3c9473b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "e437746ced9d0cac96db54a0fe247cbc",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "dd63f21f5253f582cca876cde6d4faab",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "95dc9b7afb2cdc8496f4c70908b38b0b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "895c5ffb245d3f8f282c07ec5d040f77",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "4633e24e22c796b25850ed94baf3d6b4",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "862c5d47bb574851e389c8cc626a20f8",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "0d00469df56ed9b2787d3f39037eaeb3",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "6404a02a3e432d32848417a01e8d680e",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "09b0da1e42756461a021a5f13dc42ba9",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a8ed0271842ab558d43f2e9921f019ce",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "dfd103b352160a911443f7e14d39da65",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "e28f63435d1853f5203db392ef5b441c",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9419319f4721666325623fc2d6f9246e",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "74f3b42258fe4eff1c34c359ceb0e350",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "8560d1dda337a2fb6846d6600a846039",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "050677344915c9d420fc11ffa9cf6d24",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "09795a4528b24f70dec771f651d880da",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "efa41787dd4b826e6917fb691c06d41d",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "90bb4d791a04bc46eca6c40b2440b27b",
+        "markers": [
+          "uvicorn"
+        ]
+      }
+    ],
+    "examples": {
+      "201": {
+        "FFUFHASH": "086c97",
+        "FUZZ": "500",
+        "KEY": "<cle-idempotence-aleatoire>"
+      },
+      "409": {
+        "FFUFHASH": "086c98",
+        "FUZZ": "1000",
+        "KEY": "<cle-idempotence-aleatoire>"
+      },
+      "422": {
+        "FFUFHASH": "086c91",
+        "FUZZ": "0",
+        "KEY": "<cle-idempotence-aleatoire>"
+      },
+      "429": {
+        "FFUFHASH": "086c91e",
+        "FUZZ": "[]",
+        "KEY": "<cle-idempotence-aleatoire>"
+      },
+      "500": {
+        "FFUFHASH": "086c996",
+        "FUZZ": "NaN",
+        "KEY": "<cle-idempotence-aleatoire>"
+      }
+    }
+  },
+  "mise_issue": {
+    "requests": 200,
+    "status": {
+      "429": 123,
+      "422": 77
+    },
+    "leaks": [
+      {
+        "file": "2e9de581a3c8d3b4373f3431ff001806",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "31a626d549482400959d2f8221b79041",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "97ce8c8017f54035e5788ed58d0253d1",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "98d0e7c5368e24b5cb67f6e5d544f066",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "f402064c3ba0acc45933eeced9afcf7c",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "ea81ff4aa6e143df67abe914ac7dd734",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "6f491cbd6ad25ac46377efb16485da58",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "7b9d7bfd51131c3d53dedbcd911165c7",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "026177b089009ae841fa46e036184b55",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "5b3cac82a9040322504a6dc5edea4b24",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "b24ea624d0e07a0328f9d8104d0917fb",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "8f6627e8aa8098ce3f6f512ce23d6bf4",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "1487d680e22bbd9c563a140fdf00cde7",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "5d075cd28e22818d09633bde42ce04a8",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "c716947f666cd60bc77f199b94786497",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "3c308caadbf0551ca0cd78d692fbab65",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "abd7bdab2f97cd0aeabbc413cc4b904b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "2b8ea75ec86e4fa835474e4b310862bc",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "08573278bee07e3234ffa0f665127b8a",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9edb92052f93647413c7be0a4a1b3b67",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "28c05d267b39891684fb05da1827866c",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "15817f3809e1bef3a2b849e3d767d164",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "3bae8cf25757987b7d1933320c025cd0",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "bfb149dc2afbea2d4b3f6b85d61155c8",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "7acb99169806ebc5c8c9024c1c1dc0dc",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "7c051b08f2d006d3db20b36f6107c519",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "21aa80a02f3dc2b90f8d0d183d2ff53e",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "76db051c3088c0139640a88f3aa4fbc7",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a780004e165dda3542cd254b635dbb48",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "5461fcb1068ce5ab05f2450c430ec6da",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "8f9116760b6959889c13a3a298ab3ae5",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "c11559ad4ea5a5f13ac8cb49d4a47a3d",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9300c9e12dd1f7676debb91bcbac23bd",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "13cd84c7937bf709dad701df6e56aeea",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "1599f7e0c18e29d165fa9d683ba5380a",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "6fe8114b1b9d42385213c063022cd189",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "0346f7fb0c00db4d9163acb7487db57c",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "7ea623e8f5e6755c01017eb260142a4d",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "aba57c7bc96442c6f33c83998f051db6",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "83b39cc9248ad119c5ac7d87fff82af8",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9fe9eb3d5c21666a69847e15e6c2dc80",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "0ef5aeef2345787bd8360ccddb83350a",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "3d452331e610980602f1be2cc01dc80b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "744d29cadf8ef7dd9fd5a0c138d584a7",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "d3a1551e2c59d9ebec24a584dac548bf",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "28790399f613139c67cae6de9f17959b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "4ec3db81ce00335cf4b362be02ea7469",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "3a6e1b01aeb4785f940ff1f84908fa47",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "dd9789473438013817d9523e449ccb0b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "fbb226b3483ae4919cdb33a6e8a4dcb7",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9a14830d2b7c8c79739d50cd07f4212c",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "e077af0e944d82016bca578d8a676a66",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "88d2b484aa311944c2e3ef9976837537",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "8d5ae6bc551d223c46971890eca080c7",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "e12eb56b553c77045dabba2a4ecf76cd",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "0951cbeecd1dba873b90d8407520b83b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "74074b2d356dd5c24697a7385393f581",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "b9b90efc59d5357716ac0d5132d9aa4e",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "d0d960cb587565f757c4da6a88fe0cb8",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "b98197d3965fc9703b3adda5d9a7f674",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "0a8ba66ca003e33a146258bb9340d24e",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "0ed5621a2245e267980185d045229342",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "d048f9dc6278aebe6288f2861cd36543",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "212337f98800af56663592113a82179e",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "f6d969ec4ac4ffa013c6ec4e9e196959",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "f97c5235847f80c12b8e8481488e1c50",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "ec84cc523ea69d796d9eb607a585f9b1",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "1d3678ff04a2bef6406ec242993a686c",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9dae1ffd410bfb33878aaca237f2feee",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "dbcd2943a06fe616b848a8bb6e627da9",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "0dc6cf85553d2b0125320d6527939ac6",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "8d13b90917ff7abe3201fb56a5f9b48a",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a04d31ad7841d6c910b69f2e84c7d649",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "2f69e5d443abe88267e7fb6525d15abc",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "edc34d6cc3e974a6f0bcfd5fc674be28",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "8dcae9d2f447da46ebcaae0984a13b09",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "e37b7f081dc6915c16c5aea041e920e0",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "387686f77cf3e400cee64437f39afef3",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "1395839885ca07435242a586788dca89",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "0eda0e9bce3b65cf64e33202a31c5609",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9d216c7edf70616cc8ad84a7ca5200a4",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "adea48d033e64d099c8acf40e57421fe",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "b24a11ed8e054a21de82a6b652bfd4d4",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "128b344ded0b776c15da3dcecbd85690",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "4e0a23b80d47ba8c29e2ecb877da9a78",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "0bcd70d49d142b2a5f4f65c908c8fce4",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "ffccc63342b13d9404cb6540baa5c000",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "b7e7c019f9d6eeccefe35293029e5412",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "1a4fb5ee2ef8bbafdb1bfcc82658496f",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "472fcea0de30f08033fe96975d56a45f",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "46a1600a34edc07e70d59e155988323b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "6ad1798767f3041ba4880271576ab868",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "92771be256482cb7058d0087bb42c7fb",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "ccdec0dae9e669d96e1a066055386546",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "6b37f1ded36da8264480625333ce4837",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "0394cd391eda4fb9570a297bca0aeb20",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9847f0c3f9eddb7600b13368cdbf2892",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "18af992e7769b785236d71090ce972c9",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "d6d48fd1fc2b0b7d28c55a334a991c75",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "d06cecc84a8114183433c6c5c96f8890",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "096a69b2f6e4c3f8fc9c3777df14333b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "5b5b82330236201ed816e7023d66be5b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a1582dec56c749fb577ef41b6eb6a746",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "4db6364a6c44a11cbd5b22422aaa7f43",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "933e42df8e73b536379be82caf016ea3",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "161a26b8e1bed0d59a4b91a824d4668b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "17bd594ec601636f61b46a9e0dc005ce",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a9a5fc9b43a45b821db234d5e49a6384",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "ef2d84406171fef1e27d5bde04a11ab8",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "bbea286ec6deec5f8777da70945ed4e7",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "606a449e0f0fe915cc0f0f6b9de91644",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "3755a0d795530b7ef4c659091bc5e67e",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "039264ba3c26317d68f81a5eb91d4586",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "1876b285da9e0f8559c09ba0a13294f4",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "1c7d3aa3f119aded6fa1e158eb1a8469",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "aacb3c2e3da8c220810cf1fb9f4b37fc",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "8f84c0e16309f9b04adb9f257276cd55",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "3dcbee6ffee23c17b92148f98e584e39",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "75cc8c826314e501b6bd93bf60041e3a",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "409816e2f44f81588a15a59967fce5b8",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "ab962a6e1a64339aa3e34c7fbffe21ab",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "40e8b378f08cdb8ddd9767f9657c7d51",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "774a96299ecd3a650cf835169a5bd510",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "200ae8742693e96cb928d39f21cd844b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "b868e1fbfc9ea551d949a281e703fa5f",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "1241c1f4b1a5fdf2206fb4982115dfc2",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "335f6218b65653f0ec06aebd76cf8590",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "f9ef4ed6b03dea7843b73f90ae01e735",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "1891fe8cbb74befdaf59fa3ba387116b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "0d9806c3eaf20441802116b301a1ddd3",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "2714dc8f6b2cb7884a2d9c8273a59855",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "6956242d011510b3781ab322797b6217",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "e2a1e9f6a8f1ee4f632415c622979e39",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "495c21104565377dc971858977af57ad",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "91bae850e8ba28f5f81a6b746e69dea4",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "bf322c02a8e2bc95ecfdd8348ada33c7",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "32461ac86e7f609a59584e00da65d224",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "ea26e5559bb15f36112f657d86ec02f9",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "fb54fd973f66d56a3461b1aed944b409",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "2b17ab2ad13252399c6b1ec6aff15ae8",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "787668928669e9fbfe8bde6dccedb095",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "5320aafe030ee59be23928fe1f2f3e4c",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "59e865b80013fa4de30a88c4021566e6",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "d030b8790ad6942b053b01b98fd5e330",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "db96b0c31a6d9165750c1f44b106f1a9",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "89b64708b33870773b6634558b91141e",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "e1c3f0af8ad3b02aecd8b0a89c801ab1",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "af71777145d936c28a1c90c61b59494f",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "daf624484d799c774aed2def9b4ca7bf",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "15f932e7e198449318172eb5da9a0aee",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "46cc5ed8e4e833a88880059700e469e5",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "d682ee5904a05667db87af9caef4cb1d",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a0effc6d110ba4296d3057d485e6d4b7",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "362e3e9233ffeb7e5879a3fe2cc0cc2d",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "986356b2b86377c50704207097405b33",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "cac2f1fff5fe4b65b2dc62d51239c33b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a9a428ea40cd1e895fbdab4e5994f831",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "e9ba8392665130c2a0ee3df5f84941c5",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "3181db99aaf219d747a02e2d19beefad",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a5daa004650aaf15f12dbc390cb7237d",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "e3df2a74afe8ca4c6b889289d6d2fb26",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "69488a826cdf5cd7d700a534f9012dfd",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "34ad22036d985bc2f5e6624e8f800192",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "019fb66c7e2f8d5557fcb08edb24c9e2",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "975c10d5d8aca61ee9243d080bc52de2",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "2769c1a63b089e345fe7135525de0a56",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a1cb5b6f76a5cd02e16766bd75b21de9",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "0efc17a8a52468579def25dba163ad62",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "5ddbcc9c5d6985dad61f0e4070b64363",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "aa20d9923ac8e25c7fd0fb432fa24264",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "6b927d936aca79e05820f4a265c71d4e",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "56ef332357bd0d839a1a0f88d30458f9",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "3e7893c0bfe54a3e0cb4b2a7864a4442",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "6f55ac3dd6aec9ff5ce404deb07b9746",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "8df7755525e630d23a34ca49d95643c4",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "686c9af345aeb4297ade888231cec4a3",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "6992ac06236d8e3df75390a1707e8e55",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a92e3f1846257efdcb6cba3ddae6942e",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "7059d29076ea1c95df3f45099448aff7",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "440a6711d425879676ba6f764d973663",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "70ddc3c20445205822abe893f98af695",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "bbb7b7430dfe2b5699f5529c84718a20",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9f3abb953aaec5063493961f2cd0a35c",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "940b8ded4825fb1694fb8cab9fb49fe5",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "0fb59483849d3fb9025d3f26cc18d577",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "78b53d6e67448f269f02b9551b033f01",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "7ab6c02a1fb8e5df9c0f424ebb841993",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "38da23d86ce6d2f5f0de70ab4e3e5d3a",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "ebbd3537b99e789df098e7b66e56ee0d",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "4df1d8baeba304df3afbc7f343f9678c",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "e001bc305aeb67e884af1b87fd448643",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "c66232e31a6d4d33ca340be0e88ea774",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "463420a8655c25276096a1cefb3cc84e",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "70cea9f279575d2bcb749d5c50bcf631",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "acb138a8a5b03eb59e110ce00dfc4258",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "6fd045d8aa7b44852bf8f0db3a6f6dd8",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "6a3b7e3850dcfc7bd844dee26fa85c43",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "5d5effad812bcd0cd06c60b0d65bba71",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "d1d255ba8a26d451c72682fe6ecac10e",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "772c084717936d7b770cc932692440c4",
+        "markers": [
+          "uvicorn"
+        ]
+      }
+    ],
+    "examples": {
+      "422": {
+        "FFUFHASH": "c59414",
+        "FUZZ": "\" OR \"\"=\"",
+        "KEY": "<cle-idempotence-aleatoire>"
+      },
+      "429": {
+        "FFUFHASH": "c59411",
+        "FUZZ": "' OR '1'='1",
+        "KEY": "<cle-idempotence-aleatoire>"
+      }
+    }
+  },
+  "pari_titre": {
+    "requests": 24,
+    "status": {
+      "201": 22,
+      "422": 2
+    },
+    "leaks": [
+      {
+        "file": "f8c1827782104bdc937379ee1d039003",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "8bd8ca329adde5064527608aae97bf49",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "79e0093243c309dfc36a2e7b57a5470f",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "c3130410031b27ab3c5a1dd375d7f8eb",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "04cac835ae3e95b2b8aa4c4534c41020",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "21b3a8900ba5cb5a0415b9de6cba0b26",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9e29457598cf1ec5c10668ef61f91ccf",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "38e67c5b9286d9d1e4df2f94700aeaeb",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "4b48a7c8c8e6edde90ed02ce66d01b11",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "21223ef49c34af33adc27c2615035665",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "007cceb3269b048bfee61a0640508744",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "666b9168385c936593eefcf41b8883c2",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "14db77e0f54edd97bc6bb03d7351d905",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "77c9cb827639045a6bc6dd45a8a14acc",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "9ffe2107f2184f8952d0b9aca567cd27",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "d025a090f99777af372fe5947c4fbf14",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "eaf77a198d2b003692b99c65b45b95c0",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a32310ff2304f8597eddaeecfc0bff8d",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "0b1888623a2d61fea69b6639a3c1982a",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "0994e5bcd74d618cedc104c5727c3ef7",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "15e077e973611df9f229bbe257353234",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "5bdb53ac9376052e1890596da0f5d20b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "954bfd1f0ac52a91779dce1b3345de59",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "952dbe9263e3790f0bf4e0a2fbea9464",
+        "markers": [
+          "uvicorn"
+        ]
+      }
+    ],
+    "examples": {
+      "201": {
+        "FFUFHASH": "2e5681",
+        "FUZZ": "' OR '1'='1"
+      },
+      "422": {
+        "FFUFHASH": "2e5684",
+        "FUZZ": "\" OR \"\"=\""
+      }
+    }
+  },
+  "pari_min_stake": {
+    "requests": 39,
+    "status": {
+      "422": 22,
+      "201": 10,
+      "429": 7
+    },
+    "leaks": [
+      {
+        "file": "47267352e555d0c11eb26f147457f367",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "0907d61453f3bddb3dc597fbfc3a619b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "eaf810d83fcddb24be6459ca99e0cf8e",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "773fdd8b320a379ff7ed5e3ae8c2c9ba",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "31901e52362885e9d77da0b97bd1c2a6",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "37cea68c6d6a1a8252cbd9c2a9c75770",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "40261747ddca92a8d15beef11e699bf6",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "84432d40d162cdec797d63181f4c4300",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "1a8a0e6e9f4a1df6c28905e82159cc50",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "722c52d9838e2950a3ea616d9305ba09",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "be6412fefe5ccb0c963100ef0dc8fe62",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "76027f8034a1fc65d49e2f58d66275f1",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "0401353bde1231186751b7d5302e4350",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "ad3e173df7a5152c4a4235c56921f1ab",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "c38d7ddf7d79ab87eccc4ef42baaf3e9",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "3349faff6ac4f81de7f5ddecfeb58349",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "54b80402f8f6737cde31b61603c6a044",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "1835a7c703c4ccc8edaa658e76c47922",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "bd1fd81c851126aac23e3468c9f4893c",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "354b6e76c0a440dbb6cbe29d03cb8206",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "91d7a23dc927618ef315d44e1f731860",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "ba3530df5709eb0d581bac6123586758",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "20a94a8a7a5506bcf0951db1a07b48fd",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "6a485318dc4e1cb4d599079c9a21f775",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "d46904adb92e190c579b40c850c3822f",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "cab1727e11c25fdc0dae7618ce8bc94c",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "dee3dbb9db08b9940bdf45c9478ff58c",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "30ad957be9fb0929929c390f884fcfba",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "e434ba231a764a816eef8de884eba9f1",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "62b1aa457830457ab13ecca56349786f",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "91046ae6c15e9dcae76815bb25a7dbcf",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "fc0a4c1b89e5d516be0215db128dae6f",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "1113dc70dd35a577290ae54300eb3609",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "76751d39f05465b6f97c6f4324f429e6",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "0ff14cbf52eae97ecd51e5090e19ab60",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "1221e69f603bb3334dee53af8d5ecdb9",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "c0c3afec12ab6a6d11572c63ecf2d5af",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "3c88bcd91ec77561096d8ff1fa0d1faa",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "627e1b1b125abf5b1fd203f701ef5aa7",
+        "markers": [
+          "uvicorn"
+        ]
+      }
+    ],
+    "examples": {
+      "201": {
+        "FFUFHASH": "e13af4",
+        "FUZZ": "100"
+      },
+      "422": {
+        "FFUFHASH": "e13af1",
+        "FUZZ": "0"
+      },
+      "429": {
+        "FFUFHASH": "e13af1f",
+        "FUZZ": "{}"
+      }
+    }
+  },
+  "login_injection": {
+    "requests": 24,
+    "status": {
+      "422": 5,
+      "401": 19
+    },
+    "leaks": [
+      {
+        "file": "a48e60b41ed2dd68865c70b88930dfbd",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "8221137d36208dd91f4feed8349b6f1f",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "2950964c272e45ae87b416714c034d72",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "71b4cc5db3bc9bef6fcdca8b835cd849",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "ea72859b641533c6833d4f97665669f6",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "8005538a5dccb4c728f2e11a1fe33578",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "89493fbf2bfc07f5361b2302712992dc",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "6082401aa7e52a9735752c23d1e69e5e",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "861218742d3975e0837bca8bbfbb0126",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "7209acaf2b8278d4360d67df299cfca7",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "cc43f61229eb3e8a2e90e77bcd914d85",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "b31e48468fd6ef0f5bc72cd47ab24b92",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "f50e442b25df9140b52846d37d17e0a8",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "2984a78adbb28135584fc8ef12ca3a2e",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "db5841d7c4a53d8990c09569032035e5",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "29557aa3855e1381d0490cf6e855e4e7",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "bd20b10d74f12653347c94cb7a305f96",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "6900d88eca05cb871393ae92770cf046",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "4b13c7a214f58f0640f6013355e25997",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "d0ce79441206255ccc5330d8ebf1728b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "fc7f89af28e54a3ded46bf6d1eff8293",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "e7eba5e29597e9e6cbba3b19ea2b49c1",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "f713bbdf0635d86d2711a84edef76c17",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "52fa8594c49cfa21a45ed8182e3a01a1",
+        "markers": [
+          "uvicorn"
+        ]
+      }
+    ],
+    "examples": {
+      "401": {
+        "FFUFHASH": "461ce13",
+        "FUZZ": "-1"
+      },
+      "422": {
+        "FFUFHASH": "461ce18",
+        "FUZZ": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+      }
+    }
+  },
+  "webhook_signature": {
+    "requests": 24,
+    "status": {
+      "400": 24
+    },
+    "leaks": [
+      {
+        "file": "50b73666f7ac4b7c43ab61571278f105",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "10bfa084ab24cdee876f05f34bcacadd",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "400dcd05ac4e7e56c7e7a3f3adebd87e",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "df04e4fb896b7628e6ebadcaaeb62886",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "8ffd56929e6e94f2cd27e318be4e850f",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "7cfbd75a7296062c6963ab614afc48f6",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "47291923b9d3ab50d3fd3e4848cc9ddf",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "8e6949d7760a4f77c9adb9a9b2993781",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a962da802c4ffa0451349a01f79535e3",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "fc0181fe31c5d771684a11271190cd25",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a18b1cbc64621773594bf4f54ddcb645",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "724041450ce328a0b528c4a66e0a44f5",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "8849de5bb0be855cf6eb21ca5dee4970",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "f2dd96de39b6e878d448532441952f32",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "ef9ed1e2330cea275f7596e5fdcecfcf",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "951eefef2cbbcff9c44dd82e7a9652c4",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "1766218803c71519feeecf5b569f6237",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "40266aa3d78dd20bbbae898ff21031bd",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "a872c801f3cda3fc259efd8ecc2e3d5d",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "4692767fee3c1ae67770ac1e8a64570a",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "cfcf6199de57cd992acee324cd1f3ed2",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "75f0f7517d92fe27a509d8fdd4149d1b",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "780e8caab934cf49a7d929baf54ab374",
+        "markers": [
+          "uvicorn"
+        ]
+      },
+      {
+        "file": "c12d7f2ab00efcafd854fd0f4ad739e3",
+        "markers": [
+          "uvicorn"
+        ]
+      }
+    ],
+    "examples": {
+      "400": {
+        "FFUFHASH": "ee93f16",
+        "FUZZ": "\\"
+      }
+    }
+  }
+}

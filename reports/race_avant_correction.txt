@@ -1,0 +1,11 @@
+E       AssertionError: Solde négatif : -22000 centimes, 4 mises acceptées ([201, 409, 409, 409, 409, 409, 409, 201, 409, 409, 409, 409, 409, 409, 409, 201, 409, 409, 409, 201])
+1 failed, 1 passed, 18 deselected in 1.69s
+2 passed, 18 deselected in 1.73s
+E       AssertionError: Solde négatif : -14000 centimes, 3 mises acceptées ([409, 201, 409, 409, 409, 409, 409, 409, 409, 201, 409, 201, 409, 409, 409, 409, 409, 409, 409, 409])
+1 failed, 1 passed, 18 deselected in 1.66s
+E       AssertionError: Solde négatif : -38000 centimes, 6 mises acceptées ([409, 201, 409, 409, 409, 409, 409, 201, 409, 409, 201, 201, 409, 409, 409, 201, 409, 409, 409, 201])
+1 failed, 1 passed, 18 deselected in 1.67s
+E       AssertionError: Solde négatif : -14000 centimes, 3 mises acceptées ([409, 201, 409, 409, 409, 409, 409, 201, 409, 409, 409, 409, 409, 201, 409, 409, 409, 409, 409, 409])
+1 failed, 1 passed, 18 deselected in 1.75s
+E       AssertionError: Solde négatif : -14000 centimes, 3 mises acceptées ([409, 201, 409, 409, 409, 409, 409, 201, 409, 409, 409, 409, 201, 409, 409, 409, 409, 409, 409, 409])
+1 failed, 1 passed, 18 deselected in 1.67s
