@@ -1,7 +1,7 @@
 -r requirements.txt
 pytest==9.1.1
 httpx==0.28.1
-reportlab==5.0.1
+reportlab==5.1.0
 bandit
 pip-audit
 locust==2.47.0
